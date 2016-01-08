@@ -1,0 +1,20 @@
+/* Set a basic variable */
+/* Set a variable based on result of mixin call */
+/* Set some basic rules */
+body {
+  color: #333;
+  background: #fff;
+}
+/* Nest rules */
+nav {
+  margin: 10px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul > li {
+  display: inline-block;
+}
+nav ul > li.current {
+  background-color: #add8e6;
+}
